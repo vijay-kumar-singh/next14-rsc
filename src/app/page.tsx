@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import fetchData from './lib/fetch-data'
+
 export default async function Home() {
   const apiData = await fetchData('1')
   console.log(apiData)
